@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Datasets
+data/
+datasets/
+tiny-imagenet-200/
+cifar-10-batches-py/
+cifar-100-python/
+Digit5/
+
+# Experiment outputs
+experiments/
+runs/
+logs/
+wandb/
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.tar
+*.zip
+*.gz
+*.npy
+*.npz
+
+# Editor/system files
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.key
+*.pem
